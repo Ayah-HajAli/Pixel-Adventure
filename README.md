@@ -1,6 +1,6 @@
-# pixel_adventure
+# Pixel Adventure
 
-A new Flutter project.
+A fast-paced 2D platformer built with Flutter and the Flame engine.
 
 ## Getting Started
 
