@@ -1,4 +1,4 @@
-# dino_run
+# pixel_adventure
 
 A new Flutter project.
 
