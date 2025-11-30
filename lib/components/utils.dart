@@ -1,0 +1,24 @@
+bool checkCollisions(player, block) {
+  final hitbox = player.hitbox;
+  final playerX = player.position.x + hitbox.offSetX;
+  final playerY = player.position.y + hitbox.offSetY;
+  final playerWidth = hitbox.width;
+  final playerHeight = hitbox.height;
+
+  final blockX = block.x;
+  final blockY = block.y;
+  final blockWidth = block.width;
+  final blockHeight = block.height;
+
+  final fixedX = player.scale.x < 0 
+      ? playerX - (hitbox.offSetX * 2) - playerWidth 
+      : playerX;
+  final fixedY = block.isPlaform ? playerY + playerHeight : playerY;
+
+  return (
+    fixedY < blockY + blockHeight &&
+    playerY + playerHeight > blockY &&
+    fixedX < blockX + blockWidth &&
+    fixedX + playerWidth > blockX
+  );
+}

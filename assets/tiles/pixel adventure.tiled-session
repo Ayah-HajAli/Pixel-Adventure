@@ -1,0 +1,57 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level-01.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "level-01.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.8358,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 358.9375448671931,
+                "y": 181.8616893993779
+            }
+        },
+        "level-02.tmx": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 0.9786,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 298.3854486000409,
+                "y": 185.97997138769674
+            }
+        },
+        "pixel adventure.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/Users/ayahhajali/Desktop/flutter projects/dino_run/assets/images/Terrain",
+    "map.height": 23,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 40,
+    "openFiles": [
+        "level-01.tmx"
+    ],
+    "project": "pixel adventure.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "level-01.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
